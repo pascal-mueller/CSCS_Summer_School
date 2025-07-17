@@ -11,10 +11,10 @@ We will be using Slack to post news and links relevant to the event: you should 
 ## Schedule
 
 ### Group 1 - In-person
-<img width="941" height="559" alt="image" src="https://github.com/user-attachments/assets/e699851d-fbf3-42b6-9427-5a17895538bc" />
+<img width="935" height="555" alt="image" src="https://github.com/user-attachments/assets/c9ef9744-30cd-4ed6-8ddc-5ecf1abd2f16" />
 
 ### Group 2 - Online
-<img width="936" height="463" alt="image" src="https://github.com/user-attachments/assets/d07fc894-e248-468e-a912-ed59a9d6409b" />
+<img width="938" height="467" alt="image" src="https://github.com/user-attachments/assets/b5561273-32ea-44ab-8712-2a2448187943" />
 
 ## Link to materials
 
