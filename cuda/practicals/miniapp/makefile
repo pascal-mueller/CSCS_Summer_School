@@ -27,10 +27,10 @@ unit_tests.o: unit_tests.cu $(HEADERS)
 	nvcc $(NVCC_FLAGS) -c unit_tests.cu
 
 main: $(OBJ) main.o
-	g++ $(GCC_FLAGS) $(LINK_FLAGS) $(OBJ) main.o -o main -lcudart -lcublas
+	LIBRARY_PATH=${LD_LIBRARY_PATH} g++ $(GCC_FLAGS) $(LINK_FLAGS) $(OBJ) main.o -o main -lcudart -lcublas
 
 unit_tests: data.o linalg.o unit_tests.o
-	g++ $(GCC_FLAGS) $(LINK_FLAGS) unit_tests.o $(OBJ) -o unit_tests -lcudart -lcublas
+	LIBRARY_PATH=${LD_LIBRARY_PATH} g++ $(GCC_FLAGS) $(LINK_FLAGS) unit_tests.o $(OBJ) -o unit_tests -lcudart -lcublas
 #	./unit_tests                       # run with interactive session
 	srun -Cgpu ./unit_tests                 # run without interactive session
 
